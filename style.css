@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#logo {
+    width: 5%;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    /* Green background */
+
+}
+
+#btnRegister {
+    color: white;
+}
+
+.stdInfo {
+    position: absolute;
+    margin-top: 50px;
+    padding: 220px;
+    padding-bottom: 270px;
+    right: 25px;
+    background-color: #90EE90;
+    border-radius: 20px;
+}
+
+#headstdInfo {
+    position: absolute;
+    font-size: medium;
+    left: 150px;
+    top: 180px;
+}
+
+#stdInfoLine {
+    position: absolute;
+    top: 190px;
+    right: 110px;
+}
+
+#nameInfo {
+    position: absolute;
+    top: 220px;
+    left: 100px;
+}
+
+#ageInfo {
+    position: absolute;
+    top: 245px;
+    left: 100px;
+}
+
+#nameTxt {
+    position: absolute;
+    top: 220px;
+    right: 150px;
+
+}
+
+#ageTxt {
+    position: absolute;
+    top: 245px;
+    right: 280px;
+}
+
+#addressInfo {
+    position: absolute;
+    top: 270px;
+    left: 95px;
+}
+
+#addressTxt {
+    position: absolute;
+    top: 270px;
+    right: 190px;
+}
+
+#contactInfo {
+    position: absolute;
+    top: 290px;
+    left: 95px;
+}
+
+#conatctTxt {
+    position: absolute;
+    top: 290px;
+    right: 160px;
+}
+
+#headgrdInfo {
+    position: absolute;
+    font-size: medium;
+    top: 320px;
+    left: 150px;
+}
+
+#grdInfoLine {
+    position: absolute;
+    top: 330px;
+    left: 130px;
+}
+
+#grdInfo {
+    position: absolute;
+    top: 360px;
+    left: 100px;
+}
+
+#grdTxt {
+    position: absolute;
+    top: 360px;
+    right: 180px;
+}
+
+#grdaddressInfo{
+    position: absolute;
+    top: 390px;
+    right: 270px;
+}
+#grdaddressTxt{
+    position: absolute;
+    top:390px;
+    right: 190px;  
+}
+
+#grdContactInfo {
+    position: absolute;
+    left: 100px;
+    top: 420px;
+}
+
+#grdConatctTxt {
+    position: absolute;
+    top: 420px;
+    right: 150px;
+}
+#stdImg{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 10px;
+    left: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+#stdRegHeading{
+    background-color: #16A085;
+  margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    color: #FFFF;
+    border-radius: 10px;
+}
+#regImg{
+    width: 100%;
+    margin-top:40px;
+}
+#regPic{
+    margin-top:-10px;
+}
+#loginicon{
+    position: absolute;
+    width: 5%;
+    right: 30px;
+   transition: transform 0.3s;
+}
+#loginicon:hover{
+cursor: pointer;
+transform: scale(1.05);
+}
+#loginPageBtn{
+    position: absolute;
+    right:10px;
+    padding: 10px;
+}
+#stdRegInfoHead{
+   display: flex;
+    font-weight: 600;
+    margin-top: 20px;
+    justify-content: center;
+}
+#grdRegInfoHead{
+   display: flex;
+    font-weight: 600;
+    margin-top: -5px;
+    justify-content: center;
+}
+
+.container .nameContainer{
+   display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 10px;
+    margin-left: 100px;
+    margin-top: -20px;
+  
+    
+}
+.curveTxtFeild{
+    border-radius: 5px;
+}
+.txtWeight{
+      font-weight: 500;
+      margin-top: 20px;
+    }
+.ageContainer{
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 25px;
+    margin-left: 105px;
+   
+}
+.addressContainer{
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 10px;
+    margin-left: 90px;
+}
+.contactContainer{
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 10px;
+    margin-left: 90px;
+}
+.imgContainer{
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 10px;
+    margin-left:80px;
+}
+.btnContainer{
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    gap: 50px;
+    margin-left:130px;
+}
+#registerBtn{
+    width:150px;
+    padding: 5px;
+   border-radius: 10px;
+    font-weight: 800;
+    background-color: #2ECC71;
+    color: #FFFF;
+    transition: transform 0.3s;
+}
+#registerBtn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+#clearBtn{
+    width: 150px;
+     padding: 5px;
+     border-radius: 10px;
+    font-weight: 800;
+    text-align: center;
+    background-color:#eccc68;
+    transition: transform 0.3s;
+}
+#clearBtn:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+@media(max-width:1050px){
+    .container .nameContainer{
+        display:block;
+         align-items: center; /* Vertically aligns items */
+         gap: 20px;
+         margin-left: 10px;
+       
+         
+     }
+     .ageContainer{
+        display: block;
+        align-items: center; /* Vertically aligns items */
+        gap: 4px;
+        margin-left: 10px;
+    }
+    .addressContainer{
+        display: block;
+        align-items: center; /* Vertically aligns items */
+        gap: 10px;
+        margin-left: 10px;
+    }
+    .contactContainer{
+        display: block;
+        align-items: center; /* Vertically aligns items */
+        gap: 10px;
+        margin-left: 10px;
+    }
+    .imgContainer{
+        display: block;
+        align-items: center; /* Vertically aligns items */
+        gap: 10px;
+        margin-left:10px;
+    }
+    .btnContainer{
+        margin-top: 10px;
+        display: block;
+        align-items: center; /* Vertically aligns items */
+         margin-left:10px;
+        
+    }
+    .stdInfo {
+        display: block;
+        margin-top: 50px;
+        padding: 180px;
+        padding-bottom: 270px;
+        right: 6px;
+        background-color: #90EE90;
+        border-radius: 20px;
+    }
+    #headstdInfo {
+        position: absolute;
+        font-size: medium;
+        left: 110px;
+        top: 200px;
+    }
+    
+    #stdInfoLine {
+        position: absolute;
+        top: 210px;
+        right: 90px;
+    }
+    
+      
+    #nameTxt {
+        position: absolute;
+        top: 220px;
+        right:70px;
+    
+    }
+    
+    #ageTxt {
+        position: absolute;
+        top: 245px;
+        right: 200px;
+    }
+    
+       
+    #addressTxt {
+        position: absolute;
+        top: 270px;
+        right: 110px;
+    }
+            
+    #conatctTxt {
+        position: absolute;
+        top: 290px;
+        right: 90px;
+    }
+    
+    #headgrdInfo {
+        position: absolute;
+        font-size: medium;
+        top: 320px;
+        left: 100px;
+    }
+    
+    #grdInfoLine {
+        position: absolute;
+        top: 330px;
+        left: 100px;
+    }
+      
+    
+    #grdTxt {
+        position: absolute;
+        top: 360px;
+        right: 100px;
+    }
+            
+    #grdAgeTxt {
+        position: absolute;
+        top: 380px;
+        right: 200px;
+    }
+            
+    #grdConatctTxt {
+        position: absolute;
+        top: 420px;
+        right: 80px;
+    }
+    #grdaddressInfo{
+        position: absolute;
+        top: 390px;
+        right: 190px;
+    }
+    #grdaddressTxt{
+        position: absolute;
+        top:390px;
+        right: 110px;  
+    }
+    #stdImg{
+        position: absolute;
+        width: 40%;
+        top: 50px;
+        left: 110px;
+        border-radius: 20px;
+    }
+    
+}
+.custom-row {
+    background-color: #f0f0f0;
+    color: #333;
+  }
